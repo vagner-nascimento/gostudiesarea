@@ -15,6 +15,6 @@ func Rect(base, height float64) float64 {
 	return base * height
 }
 
-func _EqTriangle(base, height float64) float64 { // This function is not accessible
+func _EqTriangle(base, height float64) float64 { // This function is not accessible out of this package
 	return (base * height) / 2
 }
